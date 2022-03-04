@@ -1,0 +1,17 @@
+server:
+  address:     ":8000"
+  openapiPath: "/api.json"
+  swaggerPath: "/swagger"
+
+# 数据库连接配置
+database:
+  sqlite:
+    link: "sqlite:sqlite.db"
+    debug:  true
+
+logger:
+  level : "all"
+  stdout: true
+
+
+
